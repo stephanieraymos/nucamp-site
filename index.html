@@ -69,9 +69,13 @@
                     </div>
                     <div class="form-group row">
                         <label for="camp-type" class="col-sm-6 col-form-label">Campsite type</label>
-                        <div class="col btn-group btn-group-toggle" role="group" aria-label="Basic example" data-toggle="buttons">
-                            <button type="button" class="btn btn-success" name="siteType" id="siteTent">Tent</button>
-                            <button type="button" class="btn btn-primary" name="siteType" id="siteRV">RV</button>
+                        <div class="col btn-group btn-group-toggle" data-toggle="buttons">
+                        <label for= "siteTent" class="btn btn-success">
+                            <input type="radio" name="siteType" id="siteTent" autocomplete="off">Tent</input>
+                        </label>
+                        <label for= "siteRV" class="btn btn-primary">
+                            <input type="radio" name="siteType" id="siteRV" autocomplete="off" >RV</input>
+                        </label>
                         </div>
                     </div>
 
