@@ -44,7 +44,11 @@ h2{
   min-height: 200px;
 }
 
-.navbar .navbar-dark {
+.navbar{
+  background-color: $color-mid;
+}
+
+.navbar-dark {
   background-color: $color-mid;
 }
 
