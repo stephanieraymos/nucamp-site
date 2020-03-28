@@ -33,6 +33,3 @@ $(function() {
     
       });
   });
-  //gallery image clicks
-  $("img").click(function(){
-    $("img").modal("show");
